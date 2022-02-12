@@ -4,7 +4,8 @@ import 'package:tinder_clone/data/account_json.dart';
 import 'package:tinder_clone/theme/colors.dart';
 
 class AccountPage extends StatefulWidget {
-  const AccountPage({Key? key}) : super(key: key);
+  const AccountPage({Key key}) : super(key: key);
+
 
   @override
   _AccountPageState createState() => _AccountPageState();
@@ -100,7 +101,7 @@ class _AccountPageState extends State<AccountPage> {
                     padding: const EdgeInsets.only(top: 20),
                     child: Column(
                       children: [
-                        Container(
+                        SizedBox(
                           width: 85,
                           height: 85,
                           child: Stack(

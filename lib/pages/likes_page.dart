@@ -3,7 +3,6 @@ import 'package:tinder_clone/data/likes_json.dart';
 import 'package:tinder_clone/theme/colors.dart';
 
 class LikesPage extends StatefulWidget {
-  const LikesPage({Key? key}) : super(key: key);
 
   @override
   _LikesPageState createState() => _LikesPageState();

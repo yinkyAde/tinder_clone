@@ -6,7 +6,9 @@ import 'package:tinder_clone/pages/explore_page.dart';
 import 'package:tinder_clone/pages/likes_page.dart';
 
 class RootPage extends StatefulWidget {
-  const RootPage({Key? key}) : super(key: key);
+  const RootPage({Key key}) : super(key: key);
+
+
 
   @override
   _RootPageState createState() => _RootPageState();
@@ -28,7 +30,7 @@ class _RootPageState extends State<RootPage> {
   Widget getBody() {
     return IndexedStack(
       index: pageIndex,
-      children: [const ExplorePage(), const LikesPage(), ChatPage(), const AccountPage()],
+      children: [const ExplorePage(),  LikesPage(), ChatPage(), const AccountPage()],
     );
   }
 

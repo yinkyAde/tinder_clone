@@ -6,7 +6,8 @@ import 'package:tinder_clone/data/icons.dart';
 import 'package:tinder_clone/theme/colors.dart';
 
 class ExplorePage extends StatefulWidget {
-  const ExplorePage({Key? key}) : super(key: key);
+  const ExplorePage({Key key}) : super(key: key);
+
 
   @override
   _ExplorePageState createState() => _ExplorePageState();
@@ -14,7 +15,7 @@ class ExplorePage extends StatefulWidget {
 
 class _ExplorePageState extends State<ExplorePage>
     with TickerProviderStateMixin {
-  late CardController controller;
+   CardController controller;
 
   List itemsTemp = [];
   int itemLength = 0;
